@@ -1,0 +1,41 @@
+{
+  "gladius": {
+    "name": "Aegis Gladius",
+    "class": "Light Fighter",
+    "stats": {
+      "pitch": 82,
+      "yaw": 82,
+      "forward_accel": 10.2,
+      "hull_hp": 4800,
+      "shield_hp": 3000,
+      "armor_rating": 5
+    },
+    "features": ["High maneuverability", "Small cross-section"]
+  },
+  "hawk": {
+    "name": "Anvil Hawk",
+    "class": "Light Fighter",
+    "stats": {
+      "pitch": 76,
+      "yaw": 76,
+      "forward_accel": 9.4,
+      "hull_hp": 9600,
+      "shield_hp": 3000,
+      "armor_rating": 3
+    },
+    "features": ["EMP Generator", "Prisoner Stasis Pod"]
+  },
+  "vanguard": {
+    "name": "Aegis Vanguard Warden",
+    "class": "Heavy Fighter",
+    "stats": {
+      "pitch": 40,
+      "yaw": 40,
+      "forward_accel": 6.5,
+      "hull_hp": 28000,
+      "shield_hp": 15000,
+      "armor_rating": 10
+    },
+    "features": ["Redundant Systems", "S5 Nose Gun"]
+  }
+}

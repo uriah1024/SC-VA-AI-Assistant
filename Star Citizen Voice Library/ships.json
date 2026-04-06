@@ -1,0 +1,37 @@
+{
+  "gladius": {
+    "class": "Light Fighter",
+    "threat": "High",
+    "advice_1": "High maneuverability. It out-turns you. Force a joust.",
+    "advice_2": "Its nose section is fragile. Destruction disables the ship.",
+    "advice_3": "Do not dogfight. Use missiles to force it to break engagement."
+  },
+  "vanguard": {
+    "class": "Heavy Fighter",
+    "threat": "Medium",
+    "advice_1": "Shield health is high. Sustained fire is required.",
+    "advice_2": "Large cross-section. Easy to hit from above or below.",
+    "advice_3": "Aim for the engine nacelles. Loss of one causes a spin."
+  },
+  "arrow": {
+    "class": "Light Fighter",
+    "threat": "Extreme",
+    "advice_1": "Extremely small profile. Use lag pips.",
+    "advice_2": "It relies on speed. One solid ballistics hit will cripple it.",
+    "advice_3": "Vulnerable to distortion damage. Overload its power plant."
+  },
+  "cutlass": {
+    "class": "Medium Fighter",
+    "threat": "Low",
+    "advice_1": "Large emissions make it susceptible to missile fire.",
+	"advice_2": "Most weaponry face forward. Postion off the nose.",
+    "advice_3": "Has fire sustained fire; remain mobile to avoid incoming fire."
+  },
+  "hammerhead": {
+    "class": "Gunship",
+    "threat": "Critical",
+    "advice_1": "Do not engage alone. Stay out of the 2.5 kilometer turret range.",
+	"advice_2": "An often unmanned top turret leaves it vulnerable to close-range missiles.",
+	"advice_3": "Disable engines if able. Focus fire manned turrets with ballistics."
+  }
+}
