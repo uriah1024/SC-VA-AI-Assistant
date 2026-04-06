@@ -19,11 +19,11 @@ SHIPS_DB_PATH = os.path.join(BASE_LIBRARY_PATH, "ships.json")
 TACTICAL_DB_PATH = os.path.join(BASE_LIBRARY_PATH, "ship_tactical_analysis.json")
 
 # 2. API KEYS (Paste yours here)
-ELEVENLABS_API_KEY = "sk_a42024267b4b5764d2d393512b6ab3a22ff5c58bf0a6948e"
-GEMINI_API_KEY = "AIzaSyAnrnIznnvyZgESSRzeQ6dPfLV-wEJAV1A"
+ELEVENLABS_API_KEY = ""
+GEMINI_API_KEY = ""
 
 # 3. SETTINGS
-DEFAULT_VOICE_ID = "JBFqnCBsd6RMkjVDRZzb"  # George
+DEFAULT_VOICE_ID = "EXAVITQu4vr4xnSDxMaL"  # Sarah
 CREDIT_LOW_THRESHOLD = 1000   # Stop generating if total credits < 1000
 SESSION_CHAR_LIMIT = 500      # Stop generating if session uses > 500 chars
 INTRO_FATIGUE_LIMIT = 6
