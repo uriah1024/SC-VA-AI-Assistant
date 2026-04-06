@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import hashlib
 import re
 import json
@@ -10,6 +11,8 @@ import google.generativeai as genai
 # ==========================================
 #              CONFIGURATION
 # ==========================================
+load_dotenv()
+
 
 # 1. PATHS
 BASE_LIBRARY_PATH = r"C:\Star Citizen Voice Library"
@@ -18,22 +21,17 @@ STANDARD_LIBRARY_PATH = os.path.join(BASE_LIBRARY_PATH, "Standard")
 SHIPS_DB_PATH = os.path.join(BASE_LIBRARY_PATH, "ships.json")
 TACTICAL_DB_PATH = os.path.join(BASE_LIBRARY_PATH, "ship_tactical_analysis.json")
 
-# 2. API KEYS (Paste yours here)
-ELEVENLABS_API_KEY = ""
-GEMINI_API_KEY = ""
+# 2. API KEYS
+ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 # 3. SETTINGS
-DEFAULT_VOICE_ID = "EXAVITQu4vr4xnSDxMaL"  # Sarah
+DEFAULT_VOICE_ID = os.getenv('SARAH_VOICE_ID')
 CREDIT_LOW_THRESHOLD = 1000   # Stop generating if total credits < 1000
 SESSION_CHAR_LIMIT = 500      # Stop generating if session uses > 500 chars
 INTRO_FATIGUE_LIMIT = 6
 USER_SHIP_NAME = "hawk"  # Your current ship
 
-# 4. VOICE MAP
-VOICE_MAP = {
-    "EXAVITQu4vr4xnSDxMaL": "Sarah",
-    "JBFqnCBsd6RMkjVDRZzb": "George"
-}
 
 # ==========================================
 #           STATE MANAGEMENT
